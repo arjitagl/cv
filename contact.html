@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h3>Contact me by</h3>
+    <ul>
+      <li>Emailing at abcd@gmail.com</li>
+      <li>Calling at +91-9111111111</li>
+    </ul>
+
+    <form class="" action="mailto:arjitrgh@gmail.com" method="post" enctype="text/plain">
+      <label>Enter Your Details</label><br>
+      <label>Name:</label>
+      <input type="text" name="Your Name:" value=""><br>
+      <label>Email:</label>
+      <input type="email" name="Your Email:" value=""><br>
+      <label>DOB:</label>
+      <input type="date" name="Your DOB:" value=""><br>
+      <label>Mail frequency per week:</label>
+      <input type="range" name="Your Mails frequency:" max="10" min="4" list="tickmark" step="2">
+      <datalist id="tickmark">
+        <option value="4" label="4"></option>
+        <option value="6"></option>
+        <option value="8"></option>
+        <option value="10" label="10"></option>
+      </datalist>
+      <br>
+      <input type="color" name="Your Color Preference" value="">
+      <input type="submit" name="Submit">
+    </form>
+
+  </body>
+</html>
